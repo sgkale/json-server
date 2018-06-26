@@ -1,14 +1,12 @@
 {
-    "users": [
+    "amount": [
         {
             "id": 1,
-            "name": "Shubham",
-            "location": "Pune"
+            "amount": 1000
         },
         {
             "id": 2,
-            "name": "Saleel",
-            "location": "Pune"
+            "amount": 2000
         }
     ]
 }
