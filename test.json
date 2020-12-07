@@ -1,0 +1,364 @@
+{
+    "ResponseStatus": {
+        "ReturnCode": "",
+        "ErrorMsg": ""
+    },
+    "ResponseData": {
+        "ValidationError": {
+            "ErrorCode": "",
+            "ErrorMsg": ""
+        },
+        "Get_DebitCreditCardInfoV8_Resp": {
+            "CardProds": [],
+            "CreditCards": [
+                {
+                    "ShadowAcct": {
+                        "PrimShadowAcctNo": "",
+                        "CardAcctNo": "608331600",
+                        "CardAcct_Type": "PERSONAL",
+                        "CCY": "MUR",
+                        "CreditLimit": "250000"
+                    },
+                    "ShadowAcct_Owner": {
+                        "Owner_CB_CustNo": "4928",
+                        "Owner_Name": "MR MAXIME HENRI MAINGARD DE LA VILLE-ES-OFFRANS"
+                    },
+                    "ShadowAcct_Financial": {
+                        "Balance": "655.16",
+                        "PendingAmt": "0",
+                        "AvailableAmt": "249344.84",
+                        "PayDueDate": "",
+                        "LastStatDate": "20200615",
+                        "MinPayAmt_LastStat": "",
+                        "MinPayAmt_Today": ""
+                    },
+                    "ShadowAcct_Status": {
+                        "AdminStatus_Code": "0",
+                        "AdminStatus_Desc": "IN ORDER"
+                    },
+                    "ShadowAcct_Cards": [
+                        {
+                            "CardHolder_Data": {
+                                "CardHolderType": "PERSONAL SECONDARY",
+                                "CardHolder_CB_CustNo": "1364665",
+                                "CardHolder_Name": "MRS BRIGITTA MAINGARD DE LA VILLE ES OFFRANS",
+                                "CardHolder_Masked": "377099******4826",
+                                "CardValid_StartDate": "20161101",
+                                "CardExpiryDate": "20191031",
+                                "CardEmbossedName": "MRS BRIGITTA MAINGARD",
+                                "StopList_Marker": "N"
+                            },
+                            "CardStatus": {
+                                "CardStatus_Code": "N",
+                                "CardStatus_Desc": "Normal",
+                                "Activation_Flag": "Y",
+                                "DeliveryCard_Flag": "Y",
+                                "ECommerce_Flag": " ",
+                                "ForeignTransaction_Flag": "Y",
+                                "Contactless_Flag": "",
+                                "Can_Activate": "N",
+                                "Can_SetPin": "N"
+                            },
+                            "CardProduct": {
+                                "CardNetwork_Code": "04",
+                                "CardNetwork_Desc": "AMEX",
+                                "CardProd_Code": "AGR",
+                                "CardProd_Desc": "AMEX GREEN"
+                            }
+                        },
+                        {
+                            "CardHolder_Data": {
+                                "CardHolderType": "PERSONAL SECONDARY",
+                                "CardHolder_CB_CustNo": "1364665",
+                                "CardHolder_Name": "MRS BRIGITTA MAINGARD DE LA VILLE ES OFFRANS",
+                                "CardHolder_Masked": "491222******8506",
+                                "CardValid_StartDate": "20140922",
+                                "CardExpiryDate": "20170731",
+                                "CardEmbossedName": "MRS BRIGITTA MAINGARD",
+                                "StopList_Marker": "N"
+                            },
+                            "CardStatus": {
+                                "CardStatus_Code": "N",
+                                "CardStatus_Desc": "Normal",
+                                "Activation_Flag": "Y",
+                                "DeliveryCard_Flag": "Y",
+                                "ECommerce_Flag": " ",
+                                "ForeignTransaction_Flag": "Y",
+                                "Contactless_Flag": "",
+                                "Can_Activate": "N",
+                                "Can_SetPin": "N"
+                            },
+                            "CardProduct": {
+                                "CardNetwork_Code": "01",
+                                "CardNetwork_Desc": "VISA",
+                                "CardProd_Code": "EVO",
+                                "CardProd_Desc": "VISA GOLD"
+                            }
+                        },
+                        {
+                            "CardHolder_Data": {
+                                "CardHolderType": "PERSONAL SECONDARY",
+                                "CardHolder_CB_CustNo": "1364665",
+                                "CardHolder_Name": "MRS BRIGITTA MAINGARD DE LA VILLE ES OFFRANS",
+                                "CardHolder_Masked": "544541******5825",
+                                "CardValid_StartDate": "20140922",
+                                "CardExpiryDate": "20170630",
+                                "CardEmbossedName": "MRS BRIGITTA MAINGARD",
+                                "StopList_Marker": "N"
+                            },
+                            "CardStatus": {
+                                "CardStatus_Code": "N",
+                                "CardStatus_Desc": "Normal",
+                                "Activation_Flag": "Y",
+                                "DeliveryCard_Flag": "Y",
+                                "ECommerce_Flag": " ",
+                                "ForeignTransaction_Flag": "Y",
+                                "Contactless_Flag": "",
+                                "Can_Activate": "N",
+                                "Can_SetPin": "N"
+                            },
+                            "CardProduct": {
+                                "CardNetwork_Code": "02",
+                                "CardNetwork_Desc": "MASTERCARD",
+                                "CardProd_Code": "EGO",
+                                "CardProd_Desc": "MCARD GOLD"
+                            }
+                        },
+                        {
+                            "CardHolder_Data": {
+                                "CardHolderType": "PERSONAL PRIMARY",
+                                "CardHolder_CB_CustNo": "4928",
+                                "CardHolder_Name": "MR Given-Name 4928 Family-Name 4928",
+                                "CardHolder_Masked": "377099******7306",
+                                "CardValid_StartDate": "20101101",
+                                "CardExpiryDate": "20131031",
+                                "CardEmbossedName": "MR M HENRI MAINGARD",
+                                "StopList_Marker": "N"
+                            },
+                            "CardStatus": {
+                                "CardStatus_Code": "R",
+                                "CardStatus_Desc": "Replaced",
+                                "Activation_Flag": "N",
+                                "DeliveryCard_Flag": "Y",
+                                "ECommerce_Flag": " ",
+                                "ForeignTransaction_Flag": "Y",
+                                "Contactless_Flag": "",
+                                "Can_Activate": "N",
+                                "Can_SetPin": "N"
+                            },
+                            "CardProduct": {
+                                "CardNetwork_Code": "04",
+                                "CardNetwork_Desc": "AMEX",
+                                "CardProd_Code": "AGR",
+                                "CardProd_Desc": "AMEX GREEN"
+                            }
+                        },
+                        {
+                            "CardHolder_Data": {
+                                "CardHolderType": "PERSONAL PRIMARY",
+                                "CardHolder_CB_CustNo": "4928",
+                                "CardHolder_Name": "MR Given-Name 4928 Family-Name 4928",
+                                "CardHolder_Masked": "377099******3240",
+                                "CardValid_StartDate": "20161101",
+                                "CardExpiryDate": "20191031",
+                                "CardEmbossedName": "MR M HENRI MAINGARD",
+                                "StopList_Marker": "N"
+                            },
+                            "CardStatus": {
+                                "CardStatus_Code": "N",
+                                "CardStatus_Desc": "Normal",
+                                "Activation_Flag": "Y",
+                                "DeliveryCard_Flag": "Y",
+                                "ECommerce_Flag": " ",
+                                "ForeignTransaction_Flag": "Y",
+                                "Contactless_Flag": "",
+                                "Can_Activate": "N",
+                                "Can_SetPin": "N"
+                            },
+                            "CardProduct": {
+                                "CardNetwork_Code": "04",
+                                "CardNetwork_Desc": "AMEX",
+                                "CardProd_Code": "AGR",
+                                "CardProd_Desc": "AMEX GREEN"
+                            }
+                        },
+                        {
+                            "CardHolder_Data": {
+                                "CardHolderType": "PERSONAL PRIMARY",
+                                "CardHolder_CB_CustNo": "4928",
+                                "CardHolder_Name": "MR Given-Name 4928 Family-Name 4928",
+                                "CardHolder_Masked": "491222******5594",
+                                "CardValid_StartDate": "20140801",
+                                "CardExpiryDate": "20170731",
+                                "CardEmbossedName": "MR HENRI MAINGARD",
+                                "StopList_Marker": "N"
+                            },
+                            "CardStatus": {
+                                "CardStatus_Code": "N",
+                                "CardStatus_Desc": "Normal",
+                                "Activation_Flag": "Y",
+                                "DeliveryCard_Flag": "Y",
+                                "ECommerce_Flag": " ",
+                                "ForeignTransaction_Flag": "Y",
+                                "Contactless_Flag": "",
+                                "Can_Activate": "N",
+                                "Can_SetPin": "N"
+                            },
+                            "CardProduct": {
+                                "CardNetwork_Code": "01",
+                                "CardNetwork_Desc": "VISA",
+                                "CardProd_Code": "EVO",
+                                "CardProd_Desc": "VISA GOLD"
+                            }
+                        },
+                        {
+                            "CardHolder_Data": {
+                                "CardHolderType": "PERSONAL PRIMARY",
+                                "CardHolder_CB_CustNo": "4928",
+                                "CardHolder_Name": "MR Given-Name 4928 Family-Name 4928",
+                                "CardHolder_Masked": "544541******2007",
+                                "CardValid_StartDate": "20140701",
+                                "CardExpiryDate": "20170630",
+                                "CardEmbossedName": "MR M H MAINGARD",
+                                "StopList_Marker": "N"
+                            },
+                            "CardStatus": {
+                                "CardStatus_Code": "N",
+                                "CardStatus_Desc": "Normal",
+                                "Activation_Flag": "Y",
+                                "DeliveryCard_Flag": "Y",
+                                "ECommerce_Flag": " ",
+                                "ForeignTransaction_Flag": "Y",
+                                "Contactless_Flag": "",
+                                "Can_Activate": "N",
+                                "Can_SetPin": "N"
+                            },
+                            "CardProduct": {
+                                "CardNetwork_Code": "02",
+                                "CardNetwork_Desc": "MASTERCARD",
+                                "CardProd_Code": "EGO",
+                                "CardProd_Desc": "MCARD GOLD"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "DebitCards": [
+                {
+                    "PrimCardNumber_Masked": "559403******9388",
+                    "Owner_CB_CustNo": "4928",
+                    "Owner_Name": "MR MAXIME HENRI MAINGARD DE LA VILLE-ES-OFFRANS",
+                    "CardHolder_Data": {
+                        "CardHolderType": "SECONDARY",
+                        "CardHolder_CB_CustNo": "1364665",
+                        "CardHolder_Name": "MRS BRIGITTA MAINGARD DE LA VILLE ES OFFRANS",
+                        "CardNumber_Masked": "559403******4312",
+                        "CardValid_StartDate": "20180501",
+                        "CardExpiryDate": "20230430",
+                        "CardEmbossedName": "MRS BRIGITTA MAINGARD",
+                        "StopList_Marker": "N"
+                    },
+                    "CardStatus": {
+                        "CardStatus_Code": "N",
+                        "CardStatus_Desc": "Normal",
+                        "Activation_Flag": "Y",
+                        "DeliveryCard_Flag": "Y",
+                        "ECommerce_Flag": "N",
+                        "ForeignTransaction_Flag": "Y",
+                        "Contactless_Flag": " ",
+                        "Can_Activate": "N"
+                    },
+                    "CardProduct": {
+                        "CardNetwork_Code": "02",
+                        "CardNetwork_Desc": "MASTERCARD",
+                        "CardProd_Code": "MDP",
+                        "CardProd_Desc": "MC PLM/SLCT EMV"
+                    },
+                    "RB_Acct_List": [
+                        {
+                            "RB_Acct_Seq": "1",
+                            "RB_Acct_CCY": "MUR",
+                            "RB_Acct_No": "000011751770"
+                        }
+                    ]
+                },
+                {
+                    "PrimCardNumber_Masked": "559403******9388",
+                    "Owner_CB_CustNo": "4928",
+                    "Owner_Name": "MR MAXIME HENRI MAINGARD DE LA VILLE-ES-OFFRANS",
+                    "CardHolder_Data": {
+                        "CardHolderType": "PRIMARY",
+                        "CardHolder_CB_CustNo": "4928",
+                        "CardHolder_Name": "MR Given-Name 4928 Family-Name 4928",
+                        "CardNumber_Masked": "559403******9388",
+                        "CardValid_StartDate": "20180501",
+                        "CardExpiryDate": "20230430",
+                        "CardEmbossedName": "MR HENRI MAINGARD",
+                        "StopList_Marker": "N"
+                    },
+                    "CardStatus": {
+                        "CardStatus_Code": "N",
+                        "CardStatus_Desc": "Normal",
+                        "Activation_Flag": "Y",
+                        "DeliveryCard_Flag": "Y",
+                        "ECommerce_Flag": "N",
+                        "ForeignTransaction_Flag": "Y",
+                        "Contactless_Flag": " ",
+                        "Can_Activate": "N"
+                    },
+                    "CardProduct": {
+                        "CardNetwork_Code": "02",
+                        "CardNetwork_Desc": "MASTERCARD",
+                        "CardProd_Code": "MDP",
+                        "CardProd_Desc": "MC PLM/SLCT EMV"
+                    },
+                    "RB_Acct_List": [
+                        {
+                            "RB_Acct_Seq": "1",
+                            "RB_Acct_CCY": "MUR",
+                            "RB_Acct_No": "000011751770"
+                        }
+                    ]
+                },
+                {
+                    "PrimCardNumber_Masked": "920022******0774",
+                    "Owner_CB_CustNo": "4928",
+                    "Owner_Name": "MR MAXIME HENRI MAINGARD DE LA VILLE-ES-OFFRANS",
+                    "CardHolder_Data": {
+                        "CardHolderType": "PRIMARY",
+                        "CardHolder_CB_CustNo": "4928",
+                        "CardHolder_Name": "MR Given-Name 4928 Family-Name 4928",
+                        "CardNumber_Masked": "920022******0774",
+                        "CardValid_StartDate": "20191101",
+                        "CardExpiryDate": "20241031",
+                        "CardEmbossedName": "MR M HENRI MAINGARD",
+                        "StopList_Marker": "Y"
+                    },
+                    "CardStatus": {
+                        "CardStatus_Code": "N",
+                        "CardStatus_Desc": "Normal",
+                        "Activation_Flag": "Y",
+                        "DeliveryCard_Flag": "Y",
+                        "ECommerce_Flag": " ",
+                        "ForeignTransaction_Flag": " ",
+                        "Contactless_Flag": " ",
+                        "Can_Activate": "N"
+                    },
+                    "CardProduct": {
+                        "CardNetwork_Code": "23",
+                        "CardNetwork_Desc": "FLEETMAN DB",
+                        "CardProd_Code": "FDC",
+                        "CardProd_Desc": "FLEETMAN DEBIT"
+                    },
+                    "RB_Acct_List": [
+                        {
+                            "RB_Acct_Seq": "1",
+                            "RB_Acct_CCY": "MUR",
+                            "RB_Acct_No": "000011751770"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
