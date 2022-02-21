@@ -1,0 +1,99 @@
+openapi: 3.0.3
+info:
+  title: MCB IDP Events
+  description: Dummy API Spec
+  version: 1.0.0
+servers:
+  - url: https://{host}:{port}/{basePath}
+    description: Local API server
+    variables:
+      host:
+        default: localhost
+      port:
+        default: '33017'
+      basePath:
+        default: billpay-integration-external-enrolment-outbound-service
+tags:
+  - name: Events | Integration Api
+
+paths:
+
+  '/integration-api/v1/event/new/bill':
+    post:
+      tags:
+        - IDP
+      summary: post test
+      operationId: postTest
+      description: post test
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/request'
+      responses:
+        '200':
+          description: Get Response test
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/response'
+        '400':
+          description: bad input parameter
+
+  '/integration-api/v1/event/new/get/bill/{bag_biller_id}':
+    get:
+      tags:
+        - IDP
+      summary: Get Test
+      operationId: getTest
+      description: Get Test
+      parameters:
+        - name: bag_biller_id
+          in: path
+          description: BAG Biller ID
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Get Response test
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/response'
+        '400':
+          description: bad input parameter
+
+components:
+  schemas:
+    response:
+      type: object
+      properties:
+        billerId:
+          type: string
+          example: billerId
+        name:
+          type: string
+          example: name
+        account:
+          type: string
+          example: channel
+
+    request:
+      type: object
+      properties:
+        bagBillerId:
+          type: string
+          example: bagBillerId
+        unPaidBills:
+          $ref: '#/components/schemas/SubObject'
+
+    SubObject:
+      type: object
+      properties:
+        name:
+          type: string
+          example: name
+        hasBills:
+          type: boolean
+          example: false
